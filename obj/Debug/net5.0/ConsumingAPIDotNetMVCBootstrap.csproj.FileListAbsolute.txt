@@ -47,3 +47,4 @@ C:\REPOSITORIOS\ConsumingAPIDotNetMVCBootstrap\obj\Debug\net5.0\Razor\Views\Home
 C:\REPOSITORIOS\ConsumingAPIDotNetMVCBootstrap\obj\Debug\net5.0\Razor\Views\Home\LotoMania.cshtml.g.cs
 C:\REPOSITORIOS\ConsumingAPIDotNetMVCBootstrap\obj\Debug\net5.0\Razor\Views\Home\TimeMania.cshtml.g.cs
 C:\REPOSITORIOS\ConsumingAPIDotNetMVCBootstrap\obj\Debug\net5.0\Razor\Views\Home\Quina.cshtml.g.cs
+C:\REPOSITORIOS\ConsumingAPIDotNetMVCBootstrap\bin\Debug\net5.0\Newtonsoft.Json.dll
