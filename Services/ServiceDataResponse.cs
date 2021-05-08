@@ -7,11 +7,11 @@ namespace ConsumingAPIDotNetMVCBootstrap.Services
 {
     public class ServiceDataResponse
     {
+        const string API = "https://lotericas.io/api/v1/";
         public DataResponse GetDataResponse(string URL)
         {
-            var requisition = WebRequest.CreateHttp(URL);
+            var requisition = WebRequest.CreateHttp(API + URL);
             requisition.Method = "GET";
-            requisition.UserAgent = "Testinho";
             DataResponse dataResponse = new DataResponse();
             using (var response = requisition.GetResponse())
             {
