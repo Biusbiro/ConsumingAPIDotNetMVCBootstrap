@@ -1,5 +1,15 @@
+@using ConsumingAPIDotNetMVCBootstrap.Services
 @{
-    ViewData["Title"] = "Mega Sena";
+    DataResponse serviceData = new ServiceDataResponse().GetDataResponse("jogos/megasena/lasted");
+    var data = serviceData.Data[0];
+    var number1 = data.ListaDezenas[0];
+    var number2 = data.ListaDezenas[1];
+    var number3 = data.ListaDezenas[2];
+    var number4 = data.ListaDezenas[3];
+    var number5 = data.ListaDezenas[4];
+    var number6 = data.ListaDezenas[5];
+
+    ViewData["Title"] = data.TipoJogo.Replace("_", " ");
 }
 <h1>@ViewData["Title"]</h1>
 
@@ -9,7 +19,7 @@
     <div class="col-lg-2 col-sm-4">
         <div class="card mb-4 rounded-3 shadow-sm">
         <div class="card-body">
-            <h1 class="card-title pricing-card-title" id="">1</h1>
+            <h1 class="card-title pricing-card-title">@number1</h1>
         </div>
         </div>
     </div>
@@ -17,7 +27,7 @@
     <div class="col-lg-2 col-sm-4">
         <div class="card mb-4 rounded-3 shadow-sm">
         <div class="card-body">
-            <h1 class="card-title pricing-card-title">2</h1>
+            <h1 class="card-title pricing-card-title">@number2</h1>
         </div>
         </div>
     </div>
@@ -25,7 +35,7 @@
     <div class="col-lg-2 col-sm-4">
         <div class="card mb-4 rounded-3 shadow-sm">
         <div class="card-body">
-            <h1 class="card-title pricing-card-title">3</h1>
+            <h1 class="card-title pricing-card-title">@number3</h1>
         </div>
         </div>
     </div>
@@ -33,7 +43,7 @@
     <div class="col-lg-2 col-sm-4">
         <div class="card mb-4 rounded-3 shadow-sm">
         <div class="card-body">
-            <h1 class="card-title pricing-card-title">4</h1>
+            <h1 class="card-title pricing-card-title">@number4</h1>
         </div>
         </div>
     </div>
@@ -41,7 +51,7 @@
     <div class="col-lg-2 col-sm-4">
         <div class="card mb-4 rounded-3 shadow-sm">
         <div class="card-body">
-            <h1 class="card-title pricing-card-title">5</h1>
+            <h1 class="card-title pricing-card-title">@number5</h1>
         </div>
         </div>
     </div>
@@ -49,7 +59,7 @@
     <div class="col-lg-2 col-sm-4">
         <div class="card mb-4 rounded-3 shadow-sm">
         <div class="card-body">
-            <h1 class="card-title pricing-card-title">6</h1>
+            <h1 class="card-title pricing-card-title">@number6</h1>
         </div>
         </div>
     </div>

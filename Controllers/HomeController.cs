@@ -31,8 +31,6 @@ namespace ConsumingAPIDotNetMVCBootstrap.Controllers
 
         public IActionResult MegaSena()
         {
-            DataResponse serviceData = new ServiceDataResponse().GetDataResponse("jogos/megasena/lasted");
-            Console.WriteLine(serviceData.Data[0].TipoJogo);
             return View();
         }
 
