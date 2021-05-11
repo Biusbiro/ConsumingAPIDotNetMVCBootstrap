@@ -1,7 +1,7 @@
 @using ConsumingAPIDotNetMVCBootstrap.Services
 @{
     DataResponse serviceData = new ServiceDataResponse().GetDataResponse("jogos/megasena/lasted");
-    var data = serviceData.Data[0];
+    var data = serviceData.Data.FirstOrDefault();
     var number1 = data.ListaDezenas[0];
     var number2 = data.ListaDezenas[1];
     var number3 = data.ListaDezenas[2];

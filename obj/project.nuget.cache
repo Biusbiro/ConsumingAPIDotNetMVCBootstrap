@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XD/Ea3WyJAufNvjGTku9wbUX2W5Z5XQZtqPpK1UGUgZx0QVsAM8whc7+sb+MBhK0vG9CQ1SsFg5yQpWfIAUo2Q==",
+  "dgSpecHash": "o6UsMkM1kBDkM0XcAu7tGfAAAu3nh8IhkkURCbr3jP8BsDBqwGTzXtb0HdJyhRtGP8ZQy7L6tJKfrhCFWQ3UbA==",
   "success": true,
-  "projectFilePath": "C:\\REPOSITORIOS\\ConsumingAPIDotNetMVCBootstrap\\ConsumingAPIDotNetMVCBootstrap.csproj",
+  "projectFilePath": "C:\\PROJETOS\\ConsumingAPIDotNetMVCBootstrap\\ConsumingAPIDotNetMVCBootstrap.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Bismarck\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\Biu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }
