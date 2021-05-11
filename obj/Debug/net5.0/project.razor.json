@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\REPOSITORIOS\\ConsumingAPIDotNetMVCBootstrap\\ConsumingAPIDotNetMVCBootstrap.csproj",
+  "FilePath": "c:\\PROJETOS\\ConsumingAPIDotNetMVCBootstrap\\ConsumingAPIDotNetMVCBootstrap.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,83 +15619,83 @@
   "RootNamespace": "ConsumingAPIDotNetMVCBootstrap",
   "Documents": [
     {
-      "FilePath": "c:\\REPOSITORIOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\REPOSITORIOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\LotoFacil.cshtml",
-      "TargetPath": "Views\\Home\\LotoFacil.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\REPOSITORIOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\REPOSITORIOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\REPOSITORIOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\DiaDeSorte.cshtml",
-      "TargetPath": "Views\\Home\\DiaDeSorte.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\REPOSITORIOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\MegaSena.cshtml",
+      "FilePath": "c:\\PROJETOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\MegaSena.cshtml",
       "TargetPath": "Views\\Home\\MegaSena.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\REPOSITORIOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\DuplaSena.cshtml",
-      "TargetPath": "Views\\Home\\DuplaSena.cshtml",
+      "FilePath": "c:\\PROJETOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\REPOSITORIOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\REPOSITORIOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\PROJETOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\REPOSITORIOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\Federal.cshtml",
-      "TargetPath": "Views\\Home\\Federal.cshtml",
+      "FilePath": "c:\\PROJETOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\DiaDeSorte.cshtml",
+      "TargetPath": "Views\\Home\\DiaDeSorte.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\REPOSITORIOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\Loteca.cshtml",
-      "TargetPath": "Views\\Home\\Loteca.cshtml",
+      "FilePath": "c:\\PROJETOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\REPOSITORIOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\TimeMania.cshtml",
-      "TargetPath": "Views\\Home\\TimeMania.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\REPOSITORIOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\LotoMania.cshtml",
-      "TargetPath": "Views\\Home\\LotoMania.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\REPOSITORIOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\PROJETOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\REPOSITORIOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\Quina.cshtml",
+      "FilePath": "c:\\PROJETOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\PROJETOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\TimeMania.cshtml",
+      "TargetPath": "Views\\Home\\TimeMania.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\PROJETOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\Federal.cshtml",
+      "TargetPath": "Views\\Home\\Federal.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\PROJETOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\Quina.cshtml",
       "TargetPath": "Views\\Home\\Quina.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\REPOSITORIOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\PROJETOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\DuplaSena.cshtml",
+      "TargetPath": "Views\\Home\\DuplaSena.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\PROJETOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\PROJETOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\LotoFacil.cshtml",
+      "TargetPath": "Views\\Home\\LotoFacil.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\PROJETOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\LotoMania.cshtml",
+      "TargetPath": "Views\\Home\\LotoMania.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\PROJETOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Home\\Loteca.cshtml",
+      "TargetPath": "Views\\Home\\Loteca.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\PROJETOS\\ConsumingAPIDotNetMVCBootstrap\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }
   ],

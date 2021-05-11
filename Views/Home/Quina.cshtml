@@ -2,57 +2,29 @@
 @{
     DataResponse serviceData = new ServiceDataResponse().GetDataResponse("jogos/quina/lasted");
     var data = serviceData.Data.FirstOrDefault();
-    var number1 = data.ListaDezenas[0];
-    var number2 = data.ListaDezenas[1];
-    var number3 = data.ListaDezenas[2];
-    var number4 = data.ListaDezenas[3];
-    var number5 = data.ListaDezenas[4];
-
+    var accumulatedValue = data.ValorAcumuladoConcursoEspecial;
     ViewData["Title"] = data.TipoJogo.Replace("_", " ");
 }
 <h1>@ViewData["Title"]</h1>
 
 <br/>
-<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center col-lg-12 col-lg-offset-1">
+    @foreach(var value in data.ListaDezenas)
+    {
+        <div class="col-lg-2 col-sm-4">
+            <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-body">
+                <h1 class="card-title pricing-card-title">@value</h1>
+            </div>
+            </div>
+        </div>
+    }
+</div>
 
-    <div class="col-lg-2 col-sm-4">
-        <div class="card mb-4 rounded-3 shadow-sm">
-        <div class="card-body">
-            <h1 class="card-title pricing-card-title">@number1</h1>
-        </div>
-        </div>
+<br />
+<div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+    <div class="col-md-6 px-0"> 
+        <h1 class="display-4 fst-italic">@accumulatedValue</h1>
+        <p class="lead my-3">Valor acumulado</p>
     </div>
-
-    <div class="col-lg-2 col-sm-4">
-        <div class="card mb-4 rounded-3 shadow-sm">
-        <div class="card-body">
-            <h1 class="card-title pricing-card-title">@number2</h1>
-        </div>
-        </div>
-    </div>
-
-    <div class="col-lg-2 col-sm-4">
-        <div class="card mb-4 rounded-3 shadow-sm">
-        <div class="card-body">
-            <h1 class="card-title pricing-card-title">@number3</h1>
-        </div>
-        </div>
-    </div>
-
-    <div class="col-lg-2 col-sm-4">
-        <div class="card mb-4 rounded-3 shadow-sm">
-        <div class="card-body">
-            <h1 class="card-title pricing-card-title">@number4</h1>
-        </div>
-        </div>
-    </div>
-
-    <div class="col-lg-2 col-sm-4">
-        <div class="card mb-4 rounded-3 shadow-sm">
-        <div class="card-body">
-            <h1 class="card-title pricing-card-title">@number5</h1>
-        </div>
-        </div>
-    </div>
-    
 </div>
