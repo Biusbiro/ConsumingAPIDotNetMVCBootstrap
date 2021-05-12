@@ -133,4 +133,3 @@ C:\PROJETOS\ConsumingAPIDotNetMVCBootstrap\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\PROJETOS\ConsumingAPIDotNetMVCBootstrap\obj\Debug\net5.0\ConsumingAPIDotNetMVCBootstrap.Views.pdb
 C:\PROJETOS\ConsumingAPIDotNetMVCBootstrap\obj\Debug\net5.0\ConsumingAPIDotNetMVCBootstrap.csproj.CopyComplete
 C:\PROJETOS\ConsumingAPIDotNetMVCBootstrap\obj\Debug\net5.0\ConsumingAPIDotNetMVCBootstrap.genruntimeconfig.cache
-C:\PROJETOS\ConsumingAPIDotNetMVCBootstrap\obj\Debug\net5.0\Razor\Views\Home\ContainerAcumulatedValue.cshtml.g.cs

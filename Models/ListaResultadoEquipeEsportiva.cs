@@ -48,5 +48,8 @@ namespace ConsumingAPIDotNetMVCBootstrap.Models
 
         [JsonPropertyName("resultado")]
         public object Resultado { get; set; }
+
+        [JsonPropertyName("diaSemana")]
+        public string DiaSemana { get; set; }
     }
 }

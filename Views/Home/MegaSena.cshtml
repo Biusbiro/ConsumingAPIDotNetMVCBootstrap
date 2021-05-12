@@ -28,3 +28,25 @@
         <p class="lead my-3">Valor acumulado</p>
     </div>
 </div>
+
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <table class="table">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">Numero de ganhadores</th>
+                <th scope="col">Valor do Premio</th>
+                <th scope="col">Descricao da Faixa</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var premio in data.ListaRateioPremio)
+            {
+                <tr>
+                    <td>@premio.NumeroDeGanhadores</td>
+                    <td>@premio.ValorPremio</td>
+                    <td>@premio.DescricaoFaixa</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

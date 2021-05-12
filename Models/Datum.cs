@@ -39,7 +39,7 @@ namespace ConsumingAPIDotNetMVCBootstrap.Models
         public List<string> DezenasSorteadasOrdemSorteio { get; set; }
 
         [JsonPropertyName("listaResultadoEquipeEsportiva")]
-        public object ListaResultadoEquipeEsportiva { get; set; }
+        public List<ListaResultadoEquipeEsportiva> ListaResultadoEquipeEsportiva { get; set; }
 
         [JsonPropertyName("numeroJogo")]
         public int NumeroJogo { get; set; }
@@ -81,7 +81,7 @@ namespace ConsumingAPIDotNetMVCBootstrap.Models
         public List<string> ListaDezenas { get; set; }
 
         [JsonPropertyName("listaDezenasSegundoSorteio")]
-        public object ListaDezenasSegundoSorteio { get; set; }
+        public List<string> ListaDezenasSegundoSorteio { get; set; }
 
         [JsonPropertyName("concurso")]
         public string Concurso { get; set; }

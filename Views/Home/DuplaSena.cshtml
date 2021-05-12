@@ -1,57 +1,66 @@
+@using ConsumingAPIDotNetMVCBootstrap.Services
 @{
-    ViewData["Title"] = "Dupla Sena";
+    DataResponse serviceData = new ServiceDataResponse().GetDataResponse("jogos/duplasena/lasted");
+    var data = serviceData.Data.FirstOrDefault();
+    ViewData["Title"] = data.TipoJogo.Replace("_", " ");
+    var accumulatedValue = data.ValorAcumuladoConcursoEspecial;
 }
 <h1>@ViewData["Title"]</h1>
 
 <br/>
 <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    @foreach (var value in data.ListaDezenas)
+    {
+        <div class="col-lg-2 col-sm-4">
+            <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-body">
+                <h1 class="card-title pricing-card-title">@value</h1>
+            </div>
+            </div>
+        </div>
+    }
+</div>
 
-    <div class="col-lg-2 col-sm-4">
-        <div class="card mb-4 rounded-3 shadow-sm">
-        <div class="card-body">
-            <h1 class="card-title pricing-card-title">1</h1>
+<br/>
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    @foreach (var value in data.ListaDezenasSegundoSorteio)
+    {
+        <div class="col-lg-2 col-sm-4">
+            <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-body">
+                <h1 class="card-title pricing-card-title">@value</h1>
+            </div>
+            </div>
         </div>
-        </div>
+    }
+</div>
+
+<br />
+<div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+    <div class="col-md-6 px-0"> 
+        <h1 class="display-4 fst-italic">@accumulatedValue</h1>
+        <p class="lead my-3">Valor acumulado</p>
     </div>
+</div>
 
-    <div class="col-lg-2 col-sm-4">
-        <div class="card mb-4 rounded-3 shadow-sm">
-        <div class="card-body">
-            <h1 class="card-title pricing-card-title">2</h1>
-        </div>
-        </div>
-    </div>
-
-    <div class="col-lg-2 col-sm-4">
-        <div class="card mb-4 rounded-3 shadow-sm">
-        <div class="card-body">
-            <h1 class="card-title pricing-card-title">3</h1>
-        </div>
-        </div>
-    </div>
-
-    <div class="col-lg-2 col-sm-4">
-        <div class="card mb-4 rounded-3 shadow-sm">
-        <div class="card-body">
-            <h1 class="card-title pricing-card-title">4</h1>
-        </div>
-        </div>
-    </div>
-
-    <div class="col-lg-2 col-sm-4">
-        <div class="card mb-4 rounded-3 shadow-sm">
-        <div class="card-body">
-            <h1 class="card-title pricing-card-title">5</h1>
-        </div>
-        </div>
-    </div>
-
-    <div class="col-lg-2 col-sm-4">
-        <div class="card mb-4 rounded-3 shadow-sm">
-        <div class="card-body">
-            <h1 class="card-title pricing-card-title">6</h1>
-        </div>
-        </div>
-    </div>
-
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <table class="table">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">Numero de ganhadores</th>
+                <th scope="col">Valor do Premio</th>
+                <th scope="col">Descricao da Faixa</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var premio in data.ListaRateioPremio)
+            {
+                <tr>
+                    <td>@premio.NumeroDeGanhadores</td>
+                    <td>@premio.ValorPremio</td>
+                    <td>@premio.DescricaoFaixa</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>
