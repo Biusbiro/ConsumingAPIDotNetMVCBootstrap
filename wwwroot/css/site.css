@@ -70,7 +70,19 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
+/* my Css
+ -------------------------------------------------- */
+.lotofacil-card {
+  background-color: cornflowerblue;
+  color: azure;
+  border-radius: 50px;
+  border: none;
+}
 
+.lotofacil-text {
+  font-size: 26pt !important;
+  margin-bottom: auto;
+}
 
 /* override bootstrap
  -------------------------------------------------- */
